@@ -1,0 +1,168 @@
+div 
+{
+	/*border: 1px solid black;*/
+}
+
+/* ----------------------- Header ------------------------------*/
+
+.navbar-default
+{
+	border: none;
+	background-color: white;
+
+}
+
+ .navbar-default .navbar-collapse, .navbar-default .navbar-form
+ {
+ 	background-color: #fff;
+ 	border: none;
+ }
+.container > .navbar-header, 
+.container-fluid > .navbar-header, 
+.container > .navbar-collapse, 
+.container-fluid > .navbar-collapse
+{
+	background-color: #fff;
+	border:none;
+}
+
+ .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand
+ {
+ 	width: 180px;
+ 	height: auto;
+ 	background-color: #fff;
+ 	margin-left: 0px;
+
+ }
+ .navbar-brand > img
+ {
+ 	width: 100%;
+ 	height: auto;
+ 	padding,margin:0px;
+ 	position: relative;
+ }
+ .navbar-default .navbar-nav > li
+ {
+ 	margin-top: 5px;
+ 	margin-right: 15px;
+ }
+ .navbar-default .navbar-nav > li > a
+ {
+ 	color: black;
+ 	vertical-align: middle;	
+ 	font-size: 16px;
+ 	font-family: Raleway;
+ 	font-weight: bold;
+ 	width: auto;
+ 	text-align: center;	
+ }
+ .navbar-default .navbar-nav > li > a:hover
+ {
+ 	/*background-color: black ;*/
+ 	border-bottom: 3px solid #F36F21;
+ 	color: #F36F21;
+ 	visibility: visible;	
+ }
+
+.navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus
+  {
+  	color: #F36F21;
+  	background-color: black;
+  	border-bottom: 3px solid #F36F21;
+  }
+
+ .navbar-form .form-control ,.btn-default
+ {
+ 	border: 1px solid black;
+ }
+  .btn-default:hover
+ {
+ 	background-color: #F36F21;
+ 	color:black;
+ }
+
+ .navbar-nav > li > .dropdown-menu
+ {
+ 	border: none;
+ 	padding-bottom: 0px;
+ 	padding-top: 0px;
+
+
+ }
+.dropdown-menu > li > a
+{
+	color:black;
+	text-transform: capitalize;
+	line-height: 35px;
+	font-family: Raleway;
+	font-weight: bold;
+}
+.dropdown-menu  :hover
+{
+	background-color: black ;
+}
+.dropdown-menu > li > a:hover
+{
+	
+ 	border-bottom: 3px solid #F36F21;
+ 	background-color: white;
+ 		
+ 	
+}
+.navbar-right .dropdown-menu
+{
+	right: auto;
+}
+/*------------------ dropDown menu auto show -------------------*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    padding-top: 10px;
+}
+/***********************************************************************/
+
+/* ------*---------*-----*--- End of Header ----*-----------*--------*-------*/
+
+
+
+/* ----------------------- Silder ------------------------------*/
+.carousel-inner
+{
+	height: 480px;
+		
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+	height:auto;
+	width: 100%;
+	image-rendering: auto;
+}
+.carousel-caption
+{
+	
+	padding-bottom: 135px;
+	font-family: coda;
+
+}
+.carousel-indicators li
+{
+	width: 15px;
+	height: 15px;
+	
+	border: 1px solid black;
+	border-radius: 0px;
+
+}
+.carousel-indicators .active
+{
+	width: 17px;
+	height: 17px;
+	background-color: #F36F21;
+}
+
+.carousel-caption .btn
+{
+	width: 100px;
+	height: 50px;
+}
